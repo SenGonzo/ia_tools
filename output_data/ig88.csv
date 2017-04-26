@@ -1,0 +1,17 @@
+,dice,blk_ev,wht_ev
+0,"['red', 'red', 'green']",5.45,4.86
+1,"['red', 'green', 'green']",5.04,4.46
+4,"['green', 'red', 'green']",5.04,4.46
+3,"['red', 'yellow', 'green']",4.84,4.3
+12,"['yellow', 'red', 'green']",4.84,4.3
+2,"['red', 'blue', 'green']",4.66,4.17
+8,"['blue', 'red', 'green']",4.66,4.17
+5,"['green', 'green', 'green']",4.54,4.04
+7,"['green', 'yellow', 'green']",4.26,3.84
+13,"['yellow', 'green', 'green']",4.26,3.84
+6,"['green', 'blue', 'green']",4.21,3.76
+9,"['blue', 'green', 'green']",4.21,3.76
+11,"['blue', 'yellow', 'green']",3.96,3.58
+14,"['yellow', 'blue', 'green']",3.96,3.58
+15,"['yellow', 'yellow', 'green']",3.92,3.6
+10,"['blue', 'blue', 'green']",3.85,3.48

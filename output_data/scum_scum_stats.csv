@@ -1,0 +1,9 @@
+,name,cost,type,group,blk_grp_ev,wht_grp_ev,health
+0,weequay pirate,5.0,"hunter, smuggler",2.0,4.44,4.88,8.0
+1,weequay pirate,5.0,"hunter, smuggler",2.0,4.44,4.88,8.0
+2,weequay pirate,5.0,"hunter, smuggler",2.0,4.44,4.88,8.0
+3,weequay pirate,5.0,"hunter, smuggler",2.0,4.44,4.88,8.0
+4,jabba the hutt,6.0,"leader, smuggler, hunter",1.0,2.04,2.42,10.0
+5,elite weequay pirate,7.0,"hunter, smuggler",2.0,5.96,5.62,12.0
+6,elite weequay pirate,7.0,"hunter, smuggler",2.0,5.96,5.62,12.0
+7,Totals:,40.0, ,13.0,31.72,33.18,66.0

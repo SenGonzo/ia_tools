@@ -1,0 +1,9 @@
+,name,cost,type,group,blk_grp_ev,wht_grp_ev,health
+0,elite gamorrean guard,8.0,"guardian, brawler",2.0,6.58,6.98,16.0
+1,elite gamorrean guard,8.0,"guardian, brawler",2.0,6.58,6.98,16.0
+2,elite weequay pirate,7.0,"hunter, smuggler",2.0,5.96,5.62,12.0
+3,elite weequay pirate,7.0,"hunter, smuggler",2.0,5.96,5.62,12.0
+4,jabba the hutt,6.0,"leader, smuggler, hunter",1.0,2.04,2.42,10.0
+5,jawa scavenger,2.0,smuggler,1.0,2.33,2.32,3.0
+6,jawa scavenger,2.0,smuggler,1.0,2.33,2.32,3.0
+7,Totals:,40.0, ,11.0,31.78,32.26,72.0

@@ -1,0 +1,8 @@
+,name,cost,type,group,blk_grp_ev,wht_grp_ev,health
+0,elite gamorrean guard,8.0,"guardian, brawler",2.0,6.58,6.98,16.0
+1,onar koma (potw),7.0,"gaurdian, hunter",1.0,5.5,4.72,15.0
+2,elite weequay pirate,7.0,"hunter, smuggler",2.0,5.96,5.62,12.0
+3,elite weequay pirate,7.0,"hunter, smuggler",2.0,5.96,5.62,12.0
+4,jabba the hutt,6.0,"leader, smuggler, hunter",1.0,2.04,2.42,10.0
+5,greedo,4.0,"hunter, smuggler",1.0,3.5,3.31,7.0
+6,Totals:,39.0, ,9.0,29.54,28.67,72.0
