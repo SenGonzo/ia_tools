@@ -1,0 +1,8 @@
+,name,cost,type,group,blk_grp_ev,wht_grp_ev,health
+0,elite jet trooper (tc),8.0,"trooper, vehicle",2.0,8.22,7.7,14.0
+1,elite jet trooper (tc),8.0,"trooper, vehicle",2.0,8.22,7.7,14.0
+2,elite royal guard,12.0,"guardian, brawler",2.0,5.58,5.46,20.0
+3,captian terro,7.0,"trooper, leader, creature",1.0,4.24,3.58,13.0
+4,imperial officer,2.0,leader,1.0,1.29,1.59,3.0
+5,imperial officer,2.0,leader,1.0,1.29,1.59,3.0
+6,Totals:,39.0, ,9.0,28.84,27.62,67.0
