@@ -1,0 +1,2 @@
+name,status,faction,cost,type,defense ,dice,reroll attack,reroll def,deadly,damage att,surge att,acc att,number of attacks,ability,surge 1,surge 2,surge 3,surge 4,surge,single model move,single model health,group
+elite weequay pirate,elite,scum,7,"hunter, smuggler",black,"green, green",1,0,0,0,0,2,1,"2 acc, raider, prowl","0,0,2,1","2,0,0,1","0,1,0,1","0,0,0,1","2 accuracy, 2 damage, 1 pierce",4,6,2
