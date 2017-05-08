@@ -33,7 +33,7 @@ def data_input():
                                                                      attribute_array=attribute_array,
                                                                      distance=0,
                                                                      deadly=deadly,
-                                                                     number_of_attacks=row['number of attacks'],
+                                                                     number_of_attacks=1,
                                                                      atk_reroll_attack=row['reroll attack'],
                                                                      atk_reroll_def=row['reroll def'])
 
@@ -43,7 +43,7 @@ def data_input():
                                                                      attribute_array=attribute_array,
                                                                      distance=0,
                                                                      deadly=deadly,
-                                                                     number_of_attacks=row['number of attacks'],
+                                                                     number_of_attacks=1,
                                                                      atk_reroll_attack=row['reroll attack'],
                                                                      atk_reroll_def=row['reroll def'])
 

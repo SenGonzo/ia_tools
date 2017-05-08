@@ -9,6 +9,7 @@ import Data_manip as dtm
 import Analysis_sketchpad as ansp
 import squad_stats as ss
 import Solver as so
+import IA_Statbook as IAS
 
 # from bokeh.plotting import figure, output_file, show, ColumnDataSource
 # from bokeh.models import HoverTool
@@ -17,27 +18,27 @@ import Solver as so
 # ----- TO DO LIST
 
 # Attack_calc: reroll multiple
-# Attack_calc: odds of surge/extra surges ev/cdf: added to attack_checks need to figure out next steps
-# Attack_calc, Data_manip, squad_stats: focusing support staff
 # Attack_calc: double surges optimizer
-# analysis: target priority
-# Run_this: a GUI
+# Attack_calc: odds of surge/extra surges ev/cdf: added to attack_checks need to figure out next steps
 
 # ---- ATTACK CALC
 # example input: atk.results_calc(['green', 'green'], ['black'], surge_array=[[2, 0, 0, 1], [0, 1, 0, 1]])
 # return expected_val, var_role, x_array, y_array
-ev, var, x_array, y_array = atk.results_calc('',
-                                             ['red', 'red'], ['black'],
-                                             surge_array=[[0, 0, 0, 1], [0, 0, 0, 1]],
-                                             attribute_array=[0, 0, 0, 0, 0, 0],
-                                             distance=0,
-                                             deadly=False,
-                                             number_of_attacks=1,
-                                             atk_reroll_attack=1,
-                                             def_reroll_atk=0,
-                                             focused=0)
+# ev, var, x_array, y_array = atk.results_calc('',
+#                                              ['red', 'red'], ['black'],
+#                                              surge_array=[[0, 0, 0, 1], [0, 0, 0, 1]],
+#                                              attribute_array=[0, 0, 0, 0, 0, 0],
+#                                              distance=0,
+#                                              deadly=False,
+#                                              number_of_attacks=1,
+#                                              atk_reroll_attack=1,
+#                                              def_reroll_atk=0,
+#                                              focused=0)
+#
+# print(ev, var, x_array, y_array)
 
-print(ev, var, x_array, y_array)
+# ---- SOURCE BOOK
+IAS.data_input()
 
 # ---- STACK RANK
 # dtm.create_stack_rank(dtm.data_input())

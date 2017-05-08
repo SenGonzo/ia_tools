@@ -266,6 +266,8 @@ def results_calc(name, atk_array, def_array='none',
     top_damage = int(np.amax(dice_result[:, 0]))
     damage_array = np.zeros((top_damage + 1, 1))
 
+    # np.savetxt("qar.csv", dice_result, delimiter=",")
+
     for row in dice_result:
         damage_array[int(row[0])] += 1
 
@@ -274,8 +276,6 @@ def results_calc(name, atk_array, def_array='none',
     damage_array = np.flipud(damage_array)
     running_sum = 0
     denom = np.sum(damage_array)
-    # expected_val = 0
-    # var_role = 0
 
     # Creates cumulative density function of damage
     for row in damage_array:
@@ -290,17 +290,18 @@ def results_calc(name, atk_array, def_array='none',
         pdf_counter += 1
 
     pdf = np.append(pdf2, pdf, 1)
+
+    expected_val = 0
+    var_role = 0
+
+    for row in pdf:
+        expected_val += row[0] * row[1]
+
+    for row in pdf:
+        var_role += (row[0] - expected_val)**2 * row[1]
+
     damage_array = np.array(np.flipud(damage_array))
     base_array = np.array(np.arange(0, top_damage + 1))
-
-    # Calculates expected damage of attack
-    expected_val = np.mean(dice_result, axis=0)[0]
-    var_role = np.var(dice_result, axis=0)[0]
-
-    # for row in pdf:
-    #     expected_val += row[0] * row[1]
-    #     var_role += row[0]**2 * row[1]
-    # var_role -= expected_val ** 2
 
     # Creates arrays for multiple attacks graph
     squad_cdf = np.zeros((np.amax(base_array)*number_of_attacks
@@ -339,7 +340,6 @@ def results_calc(name, atk_array, def_array='none',
         x_array = np.reshape(base_array, base_array.shape[0]),
         y_array = np.reshape(damage_array, damage_array.shape[0])
 
-    # print(pdf)
     print('{:03.2f}'.format(expected_val), '{:04.2f}'.format(var_role))
 
     return round(expected_val, 2), round(var_role, 3), np.round(x_array[0], decimals=4), np.round(y_array, decimals=4)
