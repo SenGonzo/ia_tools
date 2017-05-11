@@ -16,7 +16,7 @@ def data_input():
     limit = 0
 
     for index, row in df.iterrows():
-        print(row['name'])
+        # print(row['name'])
         surge_1 = [int(i) for i in row['surge 1'].split(',')]
         surge_2 = [int(i) for i in row['surge 2'].split(',')]
         surge_3 = [int(i) for i in row['surge 3'].split(',')]
