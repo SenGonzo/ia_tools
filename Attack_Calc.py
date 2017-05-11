@@ -155,8 +155,7 @@ def reroll(name, result, dice_result, dice_pool,
     for dice in dice_pool:
         new_atk_rez_array = np.zeros((6, 1))
 
-        if dice not in ('green', 'blue', 'yellow', 'red') or \
-                (dice in ('black', 'white') and name in ['elite weequay pirate', 'weequay pirate']):
+        if dice not in ('green', 'blue', 'yellow', 'red') and name not in ['elite weequay pirate', 'weequay pirate']:
             dice_counter += 1
             continue
 

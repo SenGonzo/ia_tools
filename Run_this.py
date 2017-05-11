@@ -24,9 +24,9 @@ import IA_Statbook as IAS
 # ---- ATTACK CALC
 # example input: atk.results_calc(['green', 'green'], ['black'], surge_array=[[2, 0, 0, 1], [0, 1, 0, 1]])
 # return expected_val, var_role, x_array, y_array
-# ev, var, x_array, y_array = atk.results_calc('',
-#                                              ['red', 'red'], ['black'],
-#                                              surge_array=[[0, 0, 0, 1], [0, 0, 0, 1]],
+# ev, var, x_array, y_array = atk.results_calc('elite weequay pirate',
+#                                              ['green', 'green'], ['white'],
+#                                              surge_array=[[2, 0, 0, 1], [0, 1, 0, 1]],
 #                                              attribute_array=[0, 0, 0, 0, 0, 0],
 #                                              distance=0,
 #                                              deadly=False,
