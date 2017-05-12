@@ -10,7 +10,7 @@ c-3po,char,rebel,2,droid,white,none,0,0,0,0,0,0,0,na,"0,0,0,1","0,0,0,1","0,0,0,
 captian terro,char,imperial,7,"trooper, leader, creature",black,"blue, green, yellow",0,0,0,0,0,0,1,"mounted, flamethrower","2,0,0,1","0,2,0,1","0,0,0,1","0,0,0,1","2 pierce, 2 damage",5,13,1
 captian terro (ff),char,imperial,8,"trooper, leader, creature",black,"blue, green, yellow",0,0,0,1,0,0,1,"mounted, flamethrower","2,0,0,1","0,2,0,1","0,0,0,1","0,0,0,1","2 pierce, 2 damage",5,13,1
 chewbacca,char,rebel,15,"smuggler, wookiee","black, white","blue, red, yellow",0,0,0,0,0,0,1,"slam, protector","2,0,0,1","0,0,2,1","0,0,0,1","0,0,0,1","2 damage, stun, 2 accuracy",4,14,1
-darth vader,char,imperial,18,"force user, leader, brawler","black, black","red, red, yellow",0,0,0,0,0,0,2,"brutality, force choke, foresight","2,0,0 ,1","0,3,0,1","0,0,0,1","0,0,0,1","3 pierce, 2 damage",4,16,1
+darth vader,char,imperial,18,"force user, leader, brawler","black, black","red, red, yellow",0,0,0,0,0,0,1,"brutality, force choke, foresight","2,0,0 ,1","0,3,0,1","0,0,0,1","0,0,0,1","3 pierce, 2 damage",4,16,1
 davith elso,char,rebel,6,"spy, force user",white,"green, yellow",0,0,0,0,0,0,1,"stealthy, cut and run","1,0,0,1","0,3,0,1","0,0,0,1","0,0,0,1","1 damage hide, pierce 3, fell swoop",5,10,1
 dengar,char,scum,7,hunter,black,"green, yellow",0,0,0,0,0,2,1,"contempt, 2 accuracy","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 damage, punishment",4,8,1
 diala passil,char,rebel,7,force user,white,"red, green",0,0,0,0,0,0,1,"shattering blow, foresight","0,3,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 recover, 3 pierce, 2 cleave",5,8,1
@@ -22,8 +22,8 @@ elite at-st (tc),elite,imperial,15,"vehicle, heavy weapon","black, black","red, 
 elite dewback rider,elite,imperial,5,"trooper, creature",black,"blue, green, yellow",0,0,0,0,0,0,1,"mounted, shock lance","1,0,0,1","1,0,0,1","0,0,2,1","0,0,0,1","2 pierce, 1 damage, 1 damage",4,9,1
 elite dewback rider (ff),elite,imperial,6,"trooper, creature",black,"blue, green, yellow",0,0,0,1,0,0,1,"mounted, shock lance","1,0,0,1","1,0,0,1","0,0,2,1","0,0,0,1","2 pierce, 1 damage, 1 damage",4,9,1
 elite echo base trooper,elite,rebel,8,trooper,black,"green, blue",0,0,0,0,0,0,1,"front line, efficient travel, combat suit","0,0,3 ,1","2,0,0,1","0,0,0,1","0,0,0,1","2 damage, 3 accuracy",4,8,2
-elite e-web engineer,elite,imperial,8,"trooper, heavy weapon",black,"blue, red, yellow",0,0,0,0,0,3,2,"tripod, assault, 1 block, 3 accuracy","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 recover, 2 damage",3,7,1
-elite e-web engineer (tc),elite,imperial,9,"trooper, heavy weapon",black,"blue, red, yellow",1,0,0,0,0,3,2,"tripod, assault, 1 block, 3 accuracy","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 recover, 2 damage",3,7,1
+elite e-web engineer,elite,imperial,8,"trooper, heavy weapon",black,"blue, red, yellow",0,0,0,0,0,3,1,"tripod, assault, 1 block, 3 accuracy","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 recover, 2 damage",3,7,1
+elite e-web engineer (tc),elite,imperial,9,"trooper, heavy weapon",black,"blue, red, yellow",1,0,0,0,0,3,1,"tripod, assault, 1 block, 3 accuracy","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 recover, 2 damage",3,7,1
 elite gamorrean guard,elite,scum,8,"guardian, brawler",black,"red, red",1,0,0,0,0,0,1,"reach, gamorrean honor guard, professional ","0,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1",cleave 2,4,8,2
 elite heavy stormtrooper,elite,imperial,8,"trooper, heavy weapon",black,"red, blue",0,0,0,0,0,2,1,"2 accuracy, composite plating","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 damage, 2 blast",3,8,2
 elite heavy stormtrooper (tc),elite,imperial,9,"trooper, heavy weapon",black,"red, blue",1,0,0,0,0,2,1,"2 accuracy, composite plating","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 damage, 2 blast",3,8,2
@@ -52,9 +52,9 @@ elite weequay pirate,elite,scum,7,"hunter, smuggler",black,"green, green",1,0,0,
 elite wing guard,elite,scum,9,"guardian, trooper",black,"green, blue",1,0,0,0,0,0,1,"keep the peace, squad training","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 damage, 2 recover",4,5,3
 elite wookiee warriors,elite,rebel,11,"brawler, wookiee",black,"red, green",0,0,0,0,0,0,1,fury,"1,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","1 damage, bleed, 2 cleave",4,13,2
 elite wookiee warriors (fury),elite,rebel,11,"brawler, wookiee",black,"red, green",0,0,0,0,1,0,1,fury,"1,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","1 damage, bleed, 2 cleave",4,13,2
-e-web engineer,grey,imperial,6,"trooper, heavy weapon",black,"blue, red, yellow",0,0,0,0,0,3,2,"tripod, assault, 3 accuracy ","1,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 recover, 1 damage",2,5,1
-e-web engineer (tc),grey,imperial,7,"trooper, heavy weapon",black,"blue, red, yellow",1,0,0,0,0,3,2,"tripod, assault, 3 accuracy ","1,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 recover, 1 damage",2,5,1
-fenn signis,char,rebel,9,trooper,black,"blue, green, red",0,0,0,0,0,0,2,"assault, trooper assault","1,0,0,1","0,0,1,1","0,0,0,1","0,0,0,1","1 blast, 1 damage, 1 accuracy",4,10,1
+e-web engineer,grey,imperial,6,"trooper, heavy weapon",black,"blue, red, yellow",0,0,0,0,0,3,1,"tripod, assault, 3 accuracy ","1,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 recover, 1 damage",2,5,1
+e-web engineer (tc),grey,imperial,7,"trooper, heavy weapon",black,"blue, red, yellow",1,0,0,0,0,3,1,"tripod, assault, 3 accuracy ","1,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 recover, 1 damage",2,5,1
+fenn signis,char,rebel,9,trooper,black,"blue, green, red",0,0,0,0,0,0,1,"assault, trooper assault","1,0,0,1","0,0,1,1","0,0,0,1","0,0,0,1","1 blast, 1 damage, 1 accuracy",4,10,1
 gaarkhan,char,rebel,8,wookiee,black,"red, yellow",0,0,0,0,0,0,1,"enraged, charge, 1 block","0,1,0,1","0,0,0,1","0,0,0,1","0,0,0,1","1 pierce, bleed, focus",4,10,1
 gamorrean guard,grey,scum,6,"guardian, brawler",black,"red, red",1,0,0,-1,0,0,1,"-1 damage, reach, labored attack, gamorrean honor","0,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1",cleave 1,4,5,2
 general sorin,char,imperial,8,leader,black,"yellow, blue",0,0,0,0,0,0,1,"bombardment, advanced firepower","1,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","1 damage, stun, focus",4,7,1
@@ -63,17 +63,17 @@ greedo,char,scum,4,"hunter, smuggler",white,"green, green",0,0,0,1,0,1,1,"1 accu
 han solo,char,rebel,12,smuggler,white,"blue, green, green",0,0,0,0,0,0,1,"return fire, distracting, cunning","1,0,2,1","2,0,0,1","0,0,0,1","0,0,0,1","2 accuracy 1 damage, 2 damage",4,12,1
 heavy stormtrooper,grey,imperial,6,"trooper, heavy weapon",black,"red, blue",0,0,0,0,0,2,1,"2 accuracy, composite plating","1,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","1 damage, 1 blast",3,6,2
 heavy stormtrooper (tc),grey,imperial,7,"trooper, heavy weapon",black,"red, blue",1,0,0,0,0,2,1,"2 accuracy, composite plating","1,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","1 damage, 1 blast",3,6,2
-hera syndulla,char,rebel,4,"leader, smuggler",black,"blue, green, yellow",0,0,0,0,0,0,1,"call the shots, smooth landing","1,0,0,1","0,2,0,1","0,0,0,1","0,0,0,1","1 damage, double surge: peirce 1",4,7,1
+hera syndulla,char,rebel,4,"leader, smuggler",black,"blue, green, yellow",0,0,0,0,0,0,1,"call the shots, smooth landing","1,0,0,1","0,2,0,2","0,0,0,1","0,0,0,1","1 damage, double surge: peirce 1",4,7,1
 hired gun ,grey,scum,4,smuggler,white,"green, yellow",0,0,0,0,0,0,1,"parting shot, disposable","1,0,0,1","0,1,0,1","0,0,1,1","0,0,0,1","1 pierce, 1 damage, 1 accuracy",5,3,2
 hk assassin droid,grey,scum,8,"droid, hunter",black,"blue, blue, yellow",1,1,0,0,0,0,1,"versatile weapon, targeting computer","1,0,0,1","0,1,0,1","0,0,0,1","0,0,0,1","weaken, 1 damage, 1 pierce",4,5,2
 hk assassin droid (tc),grey,scum,9,"droid, hunter",black,"blue, blue, yellow",2,1,0,0,0,0,1,"versatile weapon, targeting computer","1,0,0,1","0,1,0,1","0,0,0,1","0,0,0,1","weaken, 1 damage, 1 pierce",4,5,2
 imperial officer,grey,imperial,2,leader,white,"yellow, blue",0,0,0,0,0,0,1,"order, cower","1,0,0,1","0,0,2,1","0,0,0,1","0,0,0,1","focus, 1 damage ,2 accuracy",4,3,1
 isb infiltrator,grey,imperial,5,spy,white,"green, blue",0,0,0,0,0,0,1,coordinated raid,"1,0,0,1","0,0,2,1","0,0,0,1","0,0,0,1","hide, 1 damage, 2 accuracy",4,4,2
 jabba the hutt,char,scum,6,"leader, smuggler, hunter",black,"red, green",0,0,0,0,0,0,1,"bully, incentivize, order hit, scheme, nefarious gains","0,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1",na,2,10,1
-jawa scavenger,grey,scum,2,smuggler,white,"yellow, yellow",0,0,0,0,0,2,1,take cover,"2,0,0,1","1,0,0 ,1","0,0,2,1","0,0,0,1","2 damage, harass, 2 accuracy",4,3,1
+jawa scavenger,grey,scum,2,smuggler,white,"yellow, yellow",0,0,0,0,0,2,1,take cover,"2,0,0,1","0,0,2,1","0,0,0,1","0,0,0,1","2 damage, harass, 2 accuracy",4,3,1
 jet trooper,grey,imperial,4,"trooper, vehicle",black,"green, blue",0,0,0,0,0,0,1,"mobile, agile, jets","0,0,2,1","1,0,0,1","0,0,0,1","0,0,0,1","2 accuracy, 1 damage",4,3,2
 jet trooper (tc),grey,imperial,5,"trooper, vehicle",black,"green, blue",1,0,0,0,0,0,1,"mobile, agile, jets","0,0,2,1","1,0,0,1","0,0,0,1","0,0,0,1","2 accuracy, 1 damage",4,3,2
-jyn odan,char,rebel,5,smuggler,white,"green, green",0,0,0,0,0,0,2,"hair trigger, nimble, cunning","2,0,2,1","0,1,0,1","0,0,0,1","0,0,0,1","stun 1 pierce, 2 accuracy 2 damage",5,6,1
+jyn odan,char,rebel,5,smuggler,white,"green, green",0,0,0,0,0,0,1,"hair trigger, nimble, cunning","2,0,2,1","0,1,0,1","0,0,0,1","0,0,0,1","stun 1 pierce, 2 accuracy 2 damage",5,6,1
 kayn somos,char,imperial,10,"trooper, leader",black,"blue, blue, green",0,0,0,0,0,0,1,firing squad,"1,0,0,1","0,1,0,1","0,0,0,1","0,0,0,1","1 damage, 1 pierce, squad command",3,12,1
 lando calrissian,char,rebel,6,"leader, smuggler",black,"green, yellow",1,0,0,0,0,2,1,"2 accuracy, resourceful, gambit","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","hide stun, 2 damage",4,8,1
 leia organa,char,rebel,8,"leader, spy",white,"blue, yellow, yellow",0,0,0,0,0,0,1,"1 evade, battlefield leadership","2,0,0,1","0,0,3,1","0,0,0,1","0,0,0,1","2 damage, 2 recover, 3 accuracy, military effiency",5,8,1
@@ -93,17 +93,16 @@ probe droid,grey,imperial,3,droid,black,"blue, yellow, yellow",0,0,0,0,0,0,1,"se
 probe droid (tc),grey,imperial,4,droid,black,"blue, yellow, yellow",1,0,0,0,0,0,1,"self-destruct, mobile","1,0,0,1","0,1,0,1","0,0,0,1","0,0,0,1","1 damage, 1 pierce, 1 recover",3,5,1
 r2-d2,char,rebel,3,droid,white,yellow,0,0,0,0,1,2,1,"2 accuracy, 1 surge, scomp link, service, lucky","0,2,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 pierce, stun, weaken",3,6,1
 r2-d2 (tc),char,rebel,4,droid,white,yellow,1,0,0,0,1,2,1,"2 accuracy, 1 surge, scomp link, service, lucky","0,2,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 pierce, stun, weaken",3,6,1
-rancor,elite,scum,10,creature,black,"red, green, green",0,0,0,0,0,0,2,"brutality, massive, reach, non-sentient, trained","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 damage, 2 cleave",4,15,1
+rancor,elite,scum,10,creature,black,"red, green, green",0,0,0,0,0,0,1,"brutality, massive, reach, non-sentient, trained","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 damage, 2 cleave",4,15,1
 rebel saboteur,grey,rebel,5,"spy, heavy weapon",white,"red, yellow",0,0,0,0,0,2,1,"overload, 2 accuracy","0,1,0,1","0,0,0,1","0,0,0,1","0,0,0,1","1 pierce, stun, 1 blast",5,4,2
 rebel saboteur (tc),grey,rebel,6,"spy, heavy weapon",white,"red, yellow",1,0,0,0,0,2,1,"overload, 2 accuracy","0,1,0,1","0,0,0,1","0,0,0,1","0,0,0,1","1 pierce, stun, 1 blast",5,4,2
 rebel trooper,grey,rebel,6,trooper,white,"yellow, blue",0,0,0,0,0,0,1,aim,"0,1,0,1","0,0,1,1","0,0,0,1","0,0,0,1","1 pierce, 1 accuracy",4,3,3
 rebel trooper (aim),grey,rebel,6,trooper,white,"yellow, blue",0,0,0,1,0,2,1,aim,"0,1,0,1","0,0,1,1","0,0,0,1","0,0,0,1","1 pierce, 1 accuracy",4,3,3
 royal guard,grey,imperial,8,"guardian, brawler",black,"red, yellow",0,0,0,0,0,0,1,"sentinel, vengeance, reach","0,1,0,1","0,0,0,1","0,0,0,1","0,0,0,1","stun, 1 pierce",5,8,2
-royal guard (pre-nerf),grey,imperial,8,"guardian, brawler",black,"red, yellow",0,0,0,0,0,0,1,"sentinel, vengeance, reach","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","stun, 1 pierce",5,8,2
-royal guard champion,char,imperial,15,"guardian, brawler","black, white","red, green, yellow",0,0,0,0,0,0,2,"brutality, executor","2,0,0,1","0,2,0,1","0,0,0,1","0,0,0,1","bleed, 2 pierce, 2 damage",6,13,1
+royal guard champion,char,imperial,15,"guardian, brawler","black, white","red, green, yellow",0,0,0,0,0,0,1,"brutality, executor","2,0,0,1","0,2,0,1","0,0,0,1","0,0,0,1","bleed, 2 pierce, 2 damage",6,13,1
 saska teft,char,rebel,6,"smuggler, spy",white,"green, yellow",0,0,0,0,0,1,1,"1 accuracy, unstable device, shady contacts","1,0,1,1","0,1,0,1","1,0,0,1","0,0,0,1","1 accuracy 1 damage, 1 pierce weaken, 1 damage",4,7,1
-sc2-m repulsor tank,elite,imperial,10,vehicle,black,"blue, red, yellow",0,0,0,0,0,2,2,"massive, 2 accuracy, focus fire, defnesible","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 damage, 1 blast",4,10,1
-sc2-m repulsor tank (tc),elite,imperial,11,vehicle,black,"blue, red, yellow",1,0,0,0,0,2,2,"massive, 2 accuracy, focus fire, defnesible","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 damage, 1 blast",4,10,1
+sc2-m repulsor tank,elite,imperial,10,vehicle,black,"blue, red, yellow",0,0,0,0,0,2,1,"massive, 2 accuracy, focus fire, defnesible","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 damage, 1 blast",4,10,1
+sc2-m repulsor tank (tc),elite,imperial,11,vehicle,black,"blue, red, yellow",1,0,0,0,0,2,1,"massive, 2 accuracy, focus fire, defnesible","2,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 damage, 1 blast",4,10,1
 snow trooper,grey,imperial,7,trooper,black,"yellow, blue",0,0,0,0,0,0,1,enviormental recvoery gear,"1,0,0,1","0,0,2,1","0,0,0,1","0,0,0,1","1 pierce, 2 accuracy, weaken",4,4,3
 stormtrooper,grey,imperial,6,trooper,black,"green, blue",1,0,0,0,0,0,1,squad training,"1,0,0,1","0,0,2,1","0,0,0,1","0,0,0,1","1 damage, 2 accuracy",4,3,3
 the grand inquisitor,char,imperial,9,"force user, hunter",white,"red, green, yellow",0,0,1,0,0,0,1,"lightsaber throw, defensive","1,0,0,1","0,0,3,1","0,0,0,1","0,0,0,1","1 damage, 3 pierce, 3 cleave, deadly",5,15,1
@@ -117,3 +116,8 @@ weequay pirate,grey,scum,5,"hunter, smuggler",black,"green, green",1,0,0,0,0,1,1
 wing guard,grey,scum,6,"guardian, trooper",black,"green, blue",1,0,0,0,0,0,1,keep the peace,"1,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","1 damage, 1 recover",4,3,3
 wookiee warriors,grey,rebel,8,"brawler, wookiee",black,"red, green",0,0,0,0,0,0,1,fury,"1,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","1 damage, bleed, 2 cleave",4,11,2
 wookiee warriors (fury),grey,rebel,8,"brawler, wookiee",black,"red, green",0,0,0,0,1,0,1,fury,"1,0,0,1","0,0,0,1","0,0,0,1","0,0,0,1","1 damage, bleed, 2 cleave",4,11,2
+shyla varad,char,scum,8,"brawler, hunter",black,"green, green, yellow",0,0,0,0,0,0,1,"maderlorian whip, responsive","2,0,0,1","0,2,0,1","0,0,0,1","0,0,0,1","2 damage, 2 pierce, 2 cleave",4,12,1
+0-0-0,char,imperial,4,droid,black,"red, yellow",0,0,0,0,0,0,1,"shocking palm, invasive procedure, unnerving","0,2,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 pierce, 2 recover",4,8,1
+bt-1,char,imperial,6,"droid, heavy weapon, hunter",black,"blue, red, yellow",0,0,0,0,0,0,1,"missile salvo, assassin","0,2,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 pierce, 1 blast, 1 recover",4,10,1
+c1-10p,char,rebel,3,droid,black,"red, green",0,0,0,0,0,0,1,"ram, system shock","0,2,0,1","0,0,0,1","0,0,0,1","0,0,0,1","2 pierce, 2 recover",4,5,1
+elite jawa scavenger,elite,scum,3,"smuggler, leader",white,"yellow, yellow",0,0,0,0,0,2,1,"take cover, scavenged stock","2,0,0,1","0,2,0,1","0,0,2,1","0,0,0,1","2 damage, 2 peirce, 2 accuracy, bargain",4,5,1
