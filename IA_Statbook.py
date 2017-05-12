@@ -172,7 +172,7 @@ def data_input():
         ax4 = plt.gca()
         plt.setp(plt4.get_yticklabels(), visible=False)
         plt.plot(blk_y_array_focused_hidden.tolist(), '-o')
-        plt.ylabel('Hidden and Focuse', fontsize=12)
+        plt.ylabel('Hidden and Focused', fontsize=12)
         for x, y in zip(np.arange(0, len(blk_y_array_focused_hidden.tolist()) + 1), blk_y_array_focused_hidden.tolist()):
             # Annotate the points 5 _points_ above and to the left of the vertex
             ax4.annotate('{}'.format(y), xy=(x, y), xytext=(10, -20), ha='right',
